@@ -1,23 +1,22 @@
 GET http://localhost:9000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwibmFtZSI6ImIiLCJlbWFpbCI6ImJAYi5jb20iLCJpYXQiOjE2Mzg1NTA1NjgsImV4cCI6MTYzODU1MDU4M30.x_hbiN6NogKu4RKgAhzf2DYXyqVPMQ4b28FZxYdvHCo
 ###
-GET http://localhost:9000/users
-Authorization: Bearer 
-###
+
 POST http://localhost:9000/users
 Content-Type: application/json
 
 {
-    "name":"a",
-    "email":"a@a.com",
-    "password": "a",
-    "confPassword": "a"
+    "name":"b",
+    "email":"b@b.com",
+    "password": "b",
+    "confPassword": "b"
 }
 ###
 POST http://localhost:9000/login
 Content-Type: application/json
 
 {
-   "email":"a@a.com",
-    "password": "a"
+   "email":"b@b.com",
+    "password": "b"
 }
 
